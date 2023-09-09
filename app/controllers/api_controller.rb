@@ -5,8 +5,8 @@ class ApiController < ApplicationController
         track = params[:track]
         current_day = Time.now.strftime('%A')
         utc_time = Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ')
-        github_file_url = ''
-        github_repo_url = ''
+        github_file_url = 'https://github.com/Salimmwatsefu/stage1/blob/main/app/controllers/api_controller.rb'
+        github_repo_url = 'https://github.com/Salimmwatsefu/stage1'
         status_code = 200
 
     response_data = {
